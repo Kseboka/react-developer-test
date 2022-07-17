@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { GET_CATEGORY } from '../api/CategoryAPI'
+import { GET_CATEGORY } from '../../api/CategoryAPI'
 import { Query } from '@apollo/client/react/components'
-import ProductsList from '../components/ProductsList'
-import CategoryHeader from '../components/CategoryHeader'
 import { connect } from 'react-redux'
-import { categorySwitch } from '../actions/categorySwitch'
+import { categorySwitch } from '../../actions/categorySwitch'
+import ProductsList from './ProductsList'
+import CategoryHeader from './CategoryHeader'
 
 class CategoryPage extends Component {
   render() {

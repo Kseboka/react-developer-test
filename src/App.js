@@ -2,7 +2,7 @@ import { Component } from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import CartPage from './pages/CartPage'
-import CategoryPage from './pages/CategoryPage'
+import CategoryPage from './pages/category-page/CategoryPage'
 import ProductPage from './pages/ProductPage'
 import './App.css'
 
